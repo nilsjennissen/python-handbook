@@ -6,18 +6,11 @@ Welcome to the Python Handbook for Students and Learners! This handbook is desig
 
 1. Introduction to Python
 2. Basic Syntax and Data Types
-3. Control Structures
-4. Functions
-5. Object-Oriented Programming
-6. Modules and Packages
-7. File Handling
-8. Regular Expressions
-9. Debugging and Testing
-10. Web Scraping and APIs
-11. Data Science with Python
-12. GUI Programming with Python
-13. Building Web Applications with Python
-14. Conclusion
+3. Modules and Packages
+4. Control Flow
+5. Functions
+6. Object-Oriented Programming
+
 
 ### Features
 
