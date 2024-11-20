@@ -33,3 +33,15 @@ This handbook is an open-source project, and contributions are welcome! If you f
 ### License
 
 This Python Handbook for Students and Learners is licensed under the MIT License. See LICENSE for more information.
+
+
+```python 
+# Kurses Python script zu Datenbankanbindung
+import sqlite3
+conn = sqlite3.connect('example.db')
+c = conn.cursor()
+c.execute('''CREATE TABLE stocks (date text , trans text , symbol text , qty real , price real )''')
+c.execute("INSERT INTO stocks VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
+conn.commit()
+conn.close()
+```
